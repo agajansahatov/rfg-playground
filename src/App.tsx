@@ -1,6 +1,7 @@
-import HelloWorld from "./HelloWorld";
-import RFG from "./RFG";
-import SocialNetworkGraph2D from "./SocialNetworkGraph2D";
+import ConnectedPlanetsGraph from "./components/ConnectedPlanetsGraph";
+import HelloWorld from "./components/HelloWorld";
+import RFG from "./components/RFG";
+import SocialNetworkGraph2D from "./components/SocialNetworkGraph2D";
 
 export default function App() {
 	return (
@@ -8,6 +9,7 @@ export default function App() {
 			<HelloWorld />
 			<RFG />
 			<SocialNetworkGraph2D />
+			<ConnectedPlanetsGraph />
 		</>
 	);
 }
