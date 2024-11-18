@@ -1,6 +1,7 @@
 #root {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
+	font-family: Helvetica;
 }
 
 h1 {
@@ -11,4 +12,5 @@ h1 {
 
 h2 {
 	font-size: 50px;
+	margin: 10px 0;
 }

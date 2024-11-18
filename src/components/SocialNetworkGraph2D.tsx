@@ -16,24 +16,20 @@ export default function SocialNetworkGraph2D() {
 		],
 	};
 
-	interface Link {
-		source: object;
-		target: object;
-	}
-
 	return (
 		<div
 			style={{
-				display: "flex",
+				display: "grid",
 				justifyContent: "center",
 				alignItems: "center",
 				padding: "20px",
 			}}
 		>
+			<h2>Social Network Graph (2D)</h2>
 			<ForceGraph2D
 				graphData={data}
 				width={800}
-				height={500}
+				height={400}
 				nodeAutoColorBy="id"
 				linkDirectionalArrowLength={6}
 				nodeLabel={(node) => `${node.id} (${node.city}, Age: ${node.age})`} // Hover label
